@@ -1,0 +1,28 @@
+name: flutter_camera_app
+description: A flutter application that demonstrate how to add camera to flutter and share captured image file.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  camera: ^0.5.2+1
+  path_provider: ^1.1.0
+  path: ^1.6.2
+  esys_flutter_share: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
